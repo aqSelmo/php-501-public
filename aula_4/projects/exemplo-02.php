@@ -83,3 +83,15 @@ class ConsultaCep
 $serviceLocator->registerService('ConsultarCep', new ConsultarCep());
 
 $consultaCep = $serviceLocator->getService('ConsultarCep');
+
+class DbConnection{}
+
+class RestController 
+{
+	public function __construct($dbConnection)
+	{
+
+	}
+}
+
+$r1 = new RestController(new DbConnection());
