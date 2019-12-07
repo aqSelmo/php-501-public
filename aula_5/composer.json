@@ -1,0 +1,13 @@
+{
+    "require": {
+        "doctrine/orm": "^2.5",
+        "symfony/yaml": "^3.4"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Curso\\Loja\\Entidades\\": [
+    			"src/Curso/Loja"
+    		]
+    	}
+    }
+}
